@@ -30,20 +30,20 @@
 // returnMaxNumber(15,10,2)
 
 
-const returnMaxNumber=(num1,num2,num3)=>{
-     maxnumber = 0
+// const returnMaxNumber=(num1,num2,num3)=>{
+//      maxnumber = 0
 
-        if(num1>num2){
-            maxnumber = num1
-        }else{
-            maxnumber = num2
-        }
+//         if(num1>num2){
+//             maxnumber = num1
+//         }else{
+//             maxnumber = num2
+//         }
 
-        if(num3>maxnumber){
-            maxnumber = num3
-        }
+//         if(num3>maxnumber){
+//             maxnumber = num3
+//         }
 
-        return maxnumber;
-}
+//         return maxnumber;
+// }
 
-console.log(returnMaxNumber(5,10,15));
+// console.log(returnMaxNumber(5,10,15));
