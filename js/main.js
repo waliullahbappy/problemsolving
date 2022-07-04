@@ -1,4 +1,5 @@
 // 1. Swap The variables
+//Problem One
 
 // var numberOne = 55
 // var numberTwo = 20
@@ -13,17 +14,36 @@
 
 // Find the max number between three int or number
 
+// problem two
+// const returnMaxNumber=(num1,num2,num3)=>{
+//         if(num1>num2){
+//             console.log('Number One Is Greater');
+//         }else if(num2>num3){
+//             console.log('Number Two Is Greater');
+//         }else if(num1>num3){
+//             console.log('Number One Is Greater');
+//         }else{
+//             console.log('Number Three Is Greater');
+//         }
+// }
+
+// returnMaxNumber(15,10,2)
+
 
 const returnMaxNumber=(num1,num2,num3)=>{
+     maxnumber = 0
+
         if(num1>num2){
-            console.log('Number One Is Greater');
-        }else if(num2>num3){
-            console.log('Number Two Is Greater');
-        }else if(num1>num3){
-            console.log('Number One Is Greater');
+            maxnumber = num1
         }else{
-            console.log('Number Three Is Greater');
+            maxnumber = num2
         }
+
+        if(num3>maxnumber){
+            maxnumber = num3
+        }
+
+        return maxnumber;
 }
 
-returnMaxNumber(15,10,2)
+console.log(returnMaxNumber(5,10,15));
