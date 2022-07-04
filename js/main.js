@@ -47,3 +47,19 @@
 // }
 
 // console.log(returnMaxNumber(5,10,15));
+
+
+
+// Find out sum of all number in an array
+// Problem 3 
+
+
+var arr = [2,5,10,13,4,6,10,20,30]
+
+sum = 0
+
+for(let i=0; i<arr.length; i++){
+    sum += arr[i]
+}
+
+console.log(sum);
