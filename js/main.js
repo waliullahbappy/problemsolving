@@ -54,12 +54,32 @@
 // Problem 3 
 
 
-var arr = [2,5,10,13,4,6,10,20,30]
+// var arr = [2,5,10,13,4,6,10,20,30]
 
-sum = 0
+// sum = 0
 
-for(let i=0; i<arr.length; i++){
-    sum += arr[i]
+// for(let i=0; i<arr.length; i++){
+//     sum += arr[i]
+// }
+
+// console.log(sum);
+
+
+
+
+// Fibonacci series
+// Problem 4
+
+
+function fiboSeries(num){
+    var fibonacci = [0,1]
+    for(let i=2; i<num; i++){
+        // nth = (n-1)th + (n-2)th
+        fibonacci[i] = fibonacci[i-1] + fibonacci[i-2]
+        
+    }
+    return fibonacci
+
 }
 
-console.log(sum);
+console.log(fiboSeries(13));
