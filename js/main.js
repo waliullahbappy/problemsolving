@@ -70,9 +70,15 @@
 // Fibonacci series
 // Problem 4
 
-
 function fiboSeries(num){
     var fibonacci = [0,1]
+
+    if (typeof num != "number"){
+        return "Please Enter Number Type Value"
+    }
+    if (num<2){
+        return " Please Enter value greater than 2"
+    }
     for(let i=2; i<num; i++){
         // nth = (n-1)th + (n-2)th
         fibonacci[i] = fibonacci[i-1] + fibonacci[i-2]
@@ -82,4 +88,4 @@ function fiboSeries(num){
 
 }
 
-console.log(fiboSeries(13));
+console.log(fiboSeries(1));
