@@ -70,22 +70,37 @@
 // Fibonacci series
 // Problem 4
 
-function fiboSeries(num){
-    var fibonacci = [0,1]
+// function fiboSeries(num){
+//     var fibonacci = [0,1]
 
-    if (typeof num != "number"){
-        return "Please Enter Number Type Value"
-    }
-    if (num<2){
-        return " Please Enter value greater than 2"
-    }
-    for(let i=2; i<num; i++){
-        // nth = (n-1)th + (n-2)th
-        fibonacci[i] = fibonacci[i-1] + fibonacci[i-2]
+//     if (typeof num != "number"){
+//         return "Please Enter Number Type Value"
+//     }
+//     if (num<2){
+//         return " Please Enter value greater than 2"
+//     }
+//     for(let i=2; i<num; i++){
+//         // nth = (n-1)th + (n-2)th
+//         fibonacci[i] = fibonacci[i-1] + fibonacci[i-2]
         
-    }
-    return fibonacci
+//     }
+//     return fibonacci
 
+// }
+
+// console.log(fiboSeries(1));
+
+
+// Find the laregest number in A Array
+
+let arr = [24,43,55,88,100]
+
+let highestNumber = arr[0]
+
+for(i=0; i<arr.length; i++){
+    if(arr[i]>highestNumber){
+        highestNumber = arr[i]
+    }
 }
 
-console.log(fiboSeries(1));
+console.log(highestNumber)
