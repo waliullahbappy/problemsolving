@@ -93,14 +93,36 @@
 
 // Find the laregest number in A Array
 
-let arr = [24,43,55,88,100]
+// let arr = [24,43,55,88,100]
 
-let highestNumber = arr[0]
+// let highestNumber = arr[0]
 
-for(i=0; i<arr.length; i++){
-    if(arr[i]>highestNumber){
-        highestNumber = arr[i]
-    }
-}
+// for(i=0; i<arr.length; i++){
+//     if(arr[i]>highestNumber){
+//         highestNumber = arr[i]
+//     }
+// }
 
-console.log(highestNumber)
+// console.log(highestNumber)
+
+
+
+// Find The Nearest Road in A Array
+
+
+// const roads=[
+//     {name:'Dhaka',distance:55},
+//     {name:'Borishal',distance:25},
+//     {name:'Cumilla',distance:65},
+//     {name:'Feni',distance:15},
+//     {name:'Patuakhali',distance:255},
+// ]
+
+// let nearestRoad = roads[0]
+
+// for(const road of roads){
+//    if(road.distance < nearestRoad.distance)
+//     nearestRoad = road
+// }
+
+// console.log(nearestRoad);
